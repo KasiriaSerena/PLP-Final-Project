@@ -25,7 +25,6 @@
                     <button type="submit">Login</button>
                 </form>
 
-                <% var errors = errors || []; %> 
                 <% if (isSubmitted && errors.length > 0) { %> 
                     <% errors.forEach(function(error) { %>
                         <p style="color: red;"><%= error.msg %></p>
